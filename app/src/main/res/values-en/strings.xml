@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Application</string>
+
+    <string name="next_screen">Go to the next screen</string>
+    <string name="enter">Entrance</string>
+    <string name="greeting1">Greeting 1</string>
+    <string name="greeting2">Greeting 2</string>
+    <string name="greeting3">Greeting 3</string>
+    <string name="registration">Create an account</string>
+    <string name="splash">Hello</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Приложение</string>
+
+    <string name="next_screen">Переход на следующий экран</string>
+    <string name="enter">Вход</string>
+    <string name="greeting1">Приветствие 1</string>
+    <string name="greeting2">Приветствие 2</string>
+    <string name="greeting3">Приветствие 3</string>
+    <string name="registration">Создать учётку</string>
+    <string name="splash">Заставка</string>
+</resources>
