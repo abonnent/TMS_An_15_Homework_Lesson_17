@@ -6,14 +6,12 @@ import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
 
 class RegistrationActivity : AppCompatActivity() {
-    private var btn: AppCompatButton? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registration)
 
-        btn = findViewById(R.id.registration_button)
-        btn?.setOnClickListener {
+        val btn = findViewById<AppCompatButton>(R.id.registration_button)
+        btn.setOnClickListener {
             startActivity(Intent(this, SplashActivity::class.java))
         }
     }

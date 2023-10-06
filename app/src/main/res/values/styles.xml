@@ -20,5 +20,6 @@
     <style name="main.sub">
         <item name="android:textAppearance">@style/text.sub</item>
         <item name="android:textColor">#D44ED8</item>
+        <item name="backgroundTint">#E67A0D</item>
     </style>
 </resources>

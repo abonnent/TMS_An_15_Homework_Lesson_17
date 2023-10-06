@@ -6,14 +6,12 @@ import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
 
 class LoginActivity : AppCompatActivity() {
-    private var btn: AppCompatButton? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        btn = findViewById(R.id.login_button)
-        btn?.setOnClickListener {
+        val btn = findViewById<AppCompatButton>(R.id.login_button)
+        btn.setOnClickListener {
             startActivity(Intent(this, RegistrationActivity::class.java))
         }
     }

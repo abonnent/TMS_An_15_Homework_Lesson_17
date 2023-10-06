@@ -6,14 +6,12 @@ import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
 
 class OnBoarding2Activity : AppCompatActivity() {
-    private var btn: AppCompatButton? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_on_boarding2)
 
-        btn = findViewById(R.id.on_boargind2_button)
-        btn?.setOnClickListener {
+        val btn = findViewById<AppCompatButton>(R.id.on_boargind2_button)
+        btn.setOnClickListener {
             startActivity(Intent(this, OnBoarding3Activity::class.java))
         }
     }
